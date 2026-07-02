@@ -109,6 +109,9 @@ body {
 .footer-logo-img {
     height: 120px;
     width: auto;
+    background: white;
+    padding: 16px 24px;
+    border-radius: 12px;
 }
 
 .logo-icon {
