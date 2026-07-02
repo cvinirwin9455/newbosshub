@@ -1,27 +1,3 @@
-// ===== EMAIL SIGNUP HANDLING =====
-document.querySelectorAll('.signup-form').forEach(form => {
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const input = this.querySelector('input[type="email"]');
-        const email = input.value.trim();
-        
-        if (email) {
-            // Show success state
-            const button = this.querySelector('button');
-            const originalText = button.textContent;
-            button.textContent = '✓ You\'re on the list!';
-            button.style.background = '#10B981';
-            input.value = '';
-            
-            // Reset after 3 seconds
-            setTimeout(() => {
-                button.textContent = originalText;
-                button.style.background = '';
-            }, 3000);
-        }
-    });
-});
-
 // ===== SCROLL ANIMATIONS =====
 const observerOptions = {
     threshold: 0.1,
