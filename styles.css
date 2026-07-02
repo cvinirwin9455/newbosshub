@@ -74,8 +74,8 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 16px 0;
-    background: rgba(255,255,255,0.9);
+    padding: 12px 0;
+    background: rgba(255,255,255,0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--gray-100);
 }
@@ -93,14 +93,13 @@ body {
 }
 
 .logo-img {
-    height: 40px;
+    height: 70px;
     width: auto;
 }
 
 .footer-logo-img {
-    height: 36px;
+    height: 80px;
     width: auto;
-    filter: brightness(0) invert(1);
 }
 
 .logo-icon {
