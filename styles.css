@@ -75,7 +75,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 8px 0;
+    padding: 12px 0;
     background: rgba(255,255,255,0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--gray-100);
@@ -109,9 +109,7 @@ body {
 .footer-logo-img {
     height: 120px;
     width: auto;
-    background: white;
-    padding: 16px 24px;
-    border-radius: 12px;
+    filter: brightness(0) invert(1);
 }
 
 .logo-icon {
